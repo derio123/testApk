@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "testapk",
+    "name": "deveduc",
     "slug": "testapk",
+    "sdkVersion":"36.0.0",
     "platforms": [
       "ios",
-      "android",
-      "web"
+      "android"
     ],
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,7 +13,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#6200EE"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -22,7 +22,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.derxahia.deveduc",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.derxahia.deveduc",
+      "versionCode": 1
     }
   }
 }
